@@ -1,0 +1,11 @@
+method,fold,H,tau,gamma,C,validation_accuracy
+original,0,1,,0.01,1.0,83.33333333333334
+original,1,1,,0.01,1.0,54.16666666666667
+adaptive,0,1,2.0,0.01,1.0,83.33333333333334
+adaptive,1,1,2.0,0.01,1.0,54.16666666666667
+augmented,0,1,,0.01,1.0,83.33333333333334
+augmented,1,1,,0.01,1.0,62.5
+self_calibrated,0,1,,0.01,1.0,83.33333333333334
+self_calibrated,1,1,,0.01,1.0,54.16666666666667
+self_calibrated_augmented,0,1,,0.01,1.0,83.33333333333334
+self_calibrated_augmented,1,1,,0.01,1.0,58.33333333333333

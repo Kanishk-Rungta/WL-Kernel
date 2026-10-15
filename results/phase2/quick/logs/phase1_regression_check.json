@@ -1,0 +1,14 @@
+[
+  {
+    "method": "adaptive",
+    "identical_predictions": true
+  },
+  {
+    "method": "original",
+    "identical_predictions": true
+  },
+  {
+    "method": "augmented",
+    "identical_predictions": true
+  }
+]

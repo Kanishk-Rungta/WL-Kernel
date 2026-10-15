@@ -1,0 +1,18 @@
+{
+  "tests_passed": 44,
+  "completed": [
+    "real smoke five methods",
+    "quick formula five methods seed42",
+    "paper formula five methods seed42",
+    "quick authors-style original and SCDA seed42",
+    "quick formula original and SCDA seed43",
+    "equal-work profiling three repetitions",
+    "official intermediate encoder/kernel check",
+    "preservation and artifact audit"
+  ],
+  "remaining": [
+    "full authors-style paper-grid (secondary)",
+    "broader seeds/datasets and fixed-temperature control (future research)"
+  ],
+  "github_push": false
+}

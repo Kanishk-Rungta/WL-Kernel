@@ -1,0 +1,16 @@
+method,reference,metric,fold,difference
+self_calibrated,original,accuracy,0,0.8333333333333286
+self_calibrated,original,accuracy,1,-0.8333333333333286
+self_calibrated,original,accuracy,2,-1.6666666666666714
+self_calibrated,original,accuracy,3,1.6666666666666714
+self_calibrated,original,accuracy,4,0.0
+self_calibrated,original,macro_f1,0,0.009221772379667148
+self_calibrated,original,macro_f1,1,-0.006934145791928525
+self_calibrated,original,macro_f1,2,-0.01893587465862223
+self_calibrated,original,macro_f1,3,0.010866839355211488
+self_calibrated,original,macro_f1,4,0.0011749121398243467
+self_calibrated,original,weighted_f1,0,0.009221772379667148
+self_calibrated,original,weighted_f1,1,-0.0069341457919286364
+self_calibrated,original,weighted_f1,2,-0.01893587465862223
+self_calibrated,original,weighted_f1,3,0.010866839355211488
+self_calibrated,original,weighted_f1,4,0.0011749121398243467

@@ -1,0 +1,11 @@
+method,fold,H,tau,gamma,C,inner_accuracy
+original,0,1,,0.1,10.0,62.5
+original,1,1,,0.1,10.0,59.375
+original,2,1,,0.1,10.0,61.875
+original,3,1,,0.1,10.0,58.95833333333334
+original,4,1,,0.1,10.0,60.62499999999999
+self_calibrated,0,1,,0.1,10.0,62.916666666666664
+self_calibrated,1,1,,0.1,10.0,61.66666666666666
+self_calibrated,2,1,,0.1,10.0,63.125
+self_calibrated,3,1,,0.1,10.0,57.29166666666667
+self_calibrated,4,1,,0.1,10.0,60.83333333333333

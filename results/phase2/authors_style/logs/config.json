@@ -1,0 +1,78 @@
+{
+  "phase": 2,
+  "mode": "quick",
+  "seed": 42,
+  "methods": [
+    "original",
+    "self_calibrated"
+  ],
+  "grid": {
+    "H": [
+      1,
+      2,
+      3
+    ],
+    "gamma": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "C": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "tau": [
+      0.5,
+      2.0,
+      5.0
+    ],
+    "outer": 5,
+    "inner": 3,
+    "P": 20,
+    "Q": 20
+  },
+  "kernel_style": "authors",
+  "conventions": [
+    "lower",
+    "euclidean",
+    1e-07
+  ],
+  "implementation": "phase2-v1",
+  "dataset": {
+    "graphs": 600,
+    "classes": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100
+    },
+    "attributes": 18,
+    "mean_nodes": 32.63333333333333,
+    "mean_edges": 62.13666666666666,
+    "sha256": "13d832eb6ffa084192daf6e5750250028a18437ee692c38d29a10cd60e18aaf4"
+  },
+  "graph_order_fingerprint": "01e561041da6a1bb560708ca4b2c8a7512e601dbc5284b4c00c027601490a9e0",
+  "split_source": "C:\\Users\\Acer\\Desktop\\MLG - WL Kernel\\degree_adaptive_swwl\\results\\logs\\splits.json",
+  "environment": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9",
+    "libraries": {
+      "numpy": "2.4.3",
+      "scipy": "1.15.2",
+      "scikit-learn": "1.7.2",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.0",
+      "psutil": "7.0.0",
+      "pytest": "9.1.1",
+      "tqdm": "4.67.1"
+    }
+  },
+  "cache_mode": "cold",
+  "calibration": "1+median(abs(degree(u)-degree(v))) over unique undirected edges; edgeless=1",
+  "projections": "shared NumPy SeedSequence([seed,dimension,P]); float64",
+  "timing": "Each method starts cold with independent structures/operators/histories. total_seconds is per-method wall time including cache IO and incremental result writes, excluding shared dataset loading, final summaries/figures. compute_seconds excludes cache IO. Search includes refit/evaluation. RSS sampled at 10ms; allocator retention possible.",
+  "exploratory": true
+}

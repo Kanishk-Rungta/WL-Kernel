@@ -1,0 +1,60 @@
+{
+  "preserved_phase1_files": 59,
+  "omitted_regenerable_phase1_caches": 68,
+  "runs": [
+    {
+      "directory": "results\\phase2\\authors_style",
+      "methods": [
+        "original",
+        "self_calibrated"
+      ],
+      "unique_oof_per_method": 600,
+      "status": "passed"
+    },
+    {
+      "directory": "results\\phase2\\paper",
+      "methods": [
+        "original",
+        "adaptive",
+        "augmented",
+        "self_calibrated",
+        "self_calibrated_augmented"
+      ],
+      "unique_oof_per_method": 600,
+      "status": "passed"
+    },
+    {
+      "directory": "results\\phase2\\quick",
+      "methods": [
+        "original",
+        "adaptive",
+        "augmented",
+        "self_calibrated",
+        "self_calibrated_augmented"
+      ],
+      "unique_oof_per_method": 600,
+      "status": "passed"
+    },
+    {
+      "directory": "results\\phase2\\quick\\seed43",
+      "methods": [
+        "original",
+        "self_calibrated"
+      ],
+      "unique_oof_per_method": 600,
+      "status": "passed"
+    },
+    {
+      "directory": "results\\phase2\\smoke",
+      "methods": [
+        "original",
+        "adaptive",
+        "augmented",
+        "self_calibrated",
+        "self_calibrated_augmented"
+      ],
+      "unique_oof_per_method": 48,
+      "status": "passed"
+    }
+  ]
+}

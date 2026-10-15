@@ -4,6 +4,11 @@ def directions(d,P,seed):
     r=np.random.default_rng(np.random.SeedSequence([seed,d,P])).normal(size=(d,P))
     return r/np.linalg.norm(r,axis=0)
 def extract(graphs,H,aggregation='uniform',tau=1.,features='original',P=20,Q=20,seed=42):
+    if aggregation=='self_calibrated':
+        from .phase2_core import structure,operator,history,project
+        structures=[structure(g) for g in graphs]
+        histories=[history(g,s,operator(s,aggregation),H,features) for g,s in zip(graphs,structures)]
+        return project(histories,H,P,Q,seed)
     if P<1 or Q<2: raise ValueError('P>=1 and Q>=2 required')
     d=(graphs[0].x.shape[1]+(features=='degree_augmented'))*(H+1)
     projection=directions(d,P,seed)

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "torch_version": "2.5.1+cpu",
+  "quantile_max_absolute_difference": 2.220446049250313e-16,
+  "kernel_max_absolute_difference": 0.0,
+  "encoder_sha256": "893a61f7cd932cf167350680a87f77664fff4e6b6dde45a2d0253424464e5d97",
+  "kernel_source_sha256": "79d837d21953c3a1f06eed24bd13ee8d646cf962ac4a404e9cbda50e38c73f6b",
+  "scope": "Actual official SWEncoder and custom_kernel_exp with shared directions, float64 and shared quantile grid; equivalent unbatch helper. Does not validate Torch RNG equivalence, original precision or full official training environment."
+}
